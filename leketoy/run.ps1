@@ -13,3 +13,6 @@ if ($Timer.IsPastDue) {
 Write-Host "PowerShell timer trigger function ran! TIME: $currentUTCtime"
 
 write-Host "HEI Fjjjjjer"
+
+$gg = [Environment]::GetEnvironmentVariable('CRON_EXPRESSION')
+Write-Host $gg

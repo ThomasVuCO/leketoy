@@ -4,7 +4,7 @@
       "name": "Timer",
       "type": "timerTrigger",
       "direction": "in",
-      "schedule": "%CRON_EXPRESSION%"
+      "schedule": "0 */1 * * * *"
     }
   ]
 }
